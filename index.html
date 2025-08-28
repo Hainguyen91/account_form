@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="account_logo">
+        <div class="logo">
+          <i class="fa-brands fa-rebel"></i>
+        </div>
+        <div class="welcom">Welcome Back</div>
+        <div class="sign-up">
+          <div class="hoi">Don't have an account?</div>
+          <button type="submit" class="btn_sign_up">Sign Up</button>
+        </div>
+      </div>
+      <div class="account_form">
+        <nav class="acc username" aria-label=" Điền Username">
+          <form action="username" class="username_box" aria-label="Username">
+            <input
+              type="text"
+              id="username"
+              name="Username"
+              placeholder="Username"
+              autocomplete="username"
+              required
+            />
+            <button class="icon_username">
+              <i class="fa-regular fa-user"></i>
+            </button>
+          </form>
+        </nav>
+        <nav class="acc password" aria-label="Điền Passwork">
+          <form action="Password" class="password_box" aria-label="Password">
+            <input
+              type="password"
+              id="password"
+              name="Password"
+              placeholder="Password"
+              autocomplete="current-password"
+              required
+            />
+            <button class="icon_password">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-unlock2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 0c1.07 0 2.041.42 2.759 1.104l.14.14.062.08a.5.5 0 0 1-.71.675l-.076-.066-.216-.205A3 3 0 0 0 5 4v2h6.5A2.5 2.5 0 0 1 14 8.5v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4M4.5 7A1.5 1.5 0 0 0 3 8.5v5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 11.5 7z"
+                />
+              </svg>
+            </button>
+          </form>
+        </nav>
+        <nav class="acc sign-in" aria-label="Nút Đăng nhập">
+          <button class="button_sign_in" aria-label="Sing in">Sign In</button>
+        </nav>
+      </div>
+      <div class="account_forgot">
+        <button class="forgot_password" type="submit">Forgot Password?</button>
+      </div>
+    </div>
+  </body>
+</html>
