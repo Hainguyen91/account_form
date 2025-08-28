@@ -56,11 +56,16 @@ cursor: pointer;}
 width: 498px;
 height: 160px;}
 .username_box{position: relative;}
-#username{width: 450.5px;height: 21px;
+#username{
+color: rgb(255, 255, 255);
+width: 450.5px;
+height: 21px;
 padding: 7px 10.5px 7px 35px;
 border: 1px solid rgba(255, 255, 255, 0.117);
 border-radius: 21px;
-background-color: rgba(255, 255, 255, 0.168);}
+outline: none;
+background-color: rgba(255, 255, 255, 0.168);
+}
 .icon_username{position: absolute;left: 5px; top: 8px;
 background: none;
 color: rgb(255, 255, 255);
@@ -69,12 +74,19 @@ border: none;}
 #username::placeholder{color: rgb(255, 255, 255);}
 .password{margin-top: 21px;}
 .password_box{position: relative;}
-#password{width: 450.5px;height: 21px;
+#password{
+width: 450.5px;
+height: 21px;
+outline: none;
+color: rgb(255, 255, 255);
 padding: 7px 10.5px 7px 35px;
 border: 1px solid rgba(255, 255, 255, 0.117);
 border-radius: 21px;
 background-color: rgba(255, 255, 255, 0.168);}
-.icon_password{position: absolute;left: 5px; top: 8px;
+.icon_password{
+position: absolute;
+left: 5px; 
+top: 8px;
 background: none;
 color: rgb(255, 255, 255);
 font-size: 14px;
